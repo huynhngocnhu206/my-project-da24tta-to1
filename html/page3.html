@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Thiết kế form đăng ký</title>
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body>
+    <div class="container">
+        <form id="frmLogin">
+            <h3 id="title">ĐĂNG KÝ</h3>
+
+            <div class="form-group">
+                <label for="txtUsername">Họ tên:</label>
+                <input class="form-control" type="text" id="txtUsername" name="txtUsername" required>
+            </div>
+
+            <div class="form-group">
+                <label for="txtNumber">Mã số sinh viên:</label>
+                <input class="form-control" type="text" id="txtNumber" name="txtNumber">
+            </div>
+
+            <div class="form-group">
+                <label for="dtNgaysinh">Ngày sinh:</label>
+                <input class="form-control" type="date" id="dtNgaysinh" name="txtNgaysinh">
+            </div>
+
+            <div class="form-group">
+                <label>Lớp:</label>
+                
+                <input type="radio" name="rdLop" value="DA24TTA"> DA24TTA <br>
+                <input type="radio" name="rdLop" value="DA24TTB"> DA24TTB  <br>
+                <input type="radio" name="rdLop" value="DA24TTC"> DA24TTC  <br>
+                <input type="radio" name="rdLop" value="DA24TTD"> DA24TTD  <br>
+                
+            </div>
+
+            <div class="form-group">
+                <label for="txtDiachi">Địa chỉ:</label>
+                <input class="form-control" type="text" id="txtDiachi" name="txtDiachi">
+            </div>
+
+            <div class="form-group">
+                <label for="nbSDT">Số điện thoại:</label>
+                <input class="form-control" type="tel" id="nbSDT" name="nbSDT">
+            </div>
+
+            <div class="form-group">
+                <label>Giới tính:</label>
+               <center>
+                <input type="radio" name="rdGt" value="Nam"> Nam
+                <input type="radio" name="rdGt" value="Nu"> Nữ 
+                </center>
+            </div>
+
+            <div class="form-group">
+                <label>Điểm mạnh:</label>
+                <input type="checkbox" name="chkDmanh" value="UI"> Thiết kế giao diện<br>
+                <input type="checkbox" name="chkDmanh" value="CPP"> Dùng C++ thành thạo<br>
+                <input type="checkbox" name="chkDmanh" value="ADV_CPP"> Biết code C++ nâng cao<br>
+                <input type="checkbox" name="chkDmanh" value="OOP"> Lập trình hướng đối tượng cơ bản<br>
+            </div>
+
+            <div class="form-group">
+                <label for="txtGthieu"><b>Giới thiệu:</b></label>
+                <textarea id="txtGthieu" name="txtGthieu" rows="10" cols="15">
+Xin chào! Tôi là Huỳnh Ngọc Như, sinh viên ngành Công nghệ thông tin và hiện đang học tại Đại học Trà Vinh. Tôi yêu thích lập trình web và thiết kế web. Mục tiêu của tôi là trở thành lập trình viên chuyên nghiệp.
+Tôi sẽ nổ lực cố gắng để đạt được mục tiêu.
+                </textarea>
+            </div>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </div>
+</body>
+</html>

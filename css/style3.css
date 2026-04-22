@@ -1,0 +1,109 @@
+* {
+	background-color:rgb(224, 177, 201);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+}
+#title {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30px;
+	
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8cdda, #f6a4b5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#frmLogin {
+    width: 500px;
+    background:#ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #131212;
+    font-size: 24px;
+}
+
+/* Nhóm */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #f3a6b8;
+    border-radius: 8px;
+    outline: none;
+	background-color: #ffe6ee;;
+    
+}
+
+/* Focus đẹp */
+.form-control:focus {
+    border-color: #e91e63;
+	background-color: #ffffff;
+}
+
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #f3a6b8;
+	background-color: #ffe6ee;
+	font-size: 20px;
+    
+}
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #ab4f6e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e6005c;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.3); /* phóng to 1.3 lần */
+    margin-right: 6px;     /* tạo khoảng cách với chữ */
+}

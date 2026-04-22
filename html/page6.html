@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Tính học phí</title>
+    <link rel="stylesheet" href="../css/style5.css">
+</head>
+<body>
+        <h2>Bảng học phí</h2> <br>
+    
+    <div class="container" > 
+       <input type="button" onclick="add()"> Thêm </input>
+    </div>
+     <div class="row"> </div>
+    <script>
+        function add() {
+            const myRow=document.createElement("div");
+            myRow.setAttribute("class","row");
+            const myText=document.createTextNode("hehe");
+            myRow.appendChild(myText);
+          
+            document.querySelector(".row").appendChild(myRow);
+            
+        }
+    </script>
+
+
+</body>
+</html>
