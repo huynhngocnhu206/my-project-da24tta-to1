@@ -11,7 +11,20 @@
     <div class="container" > 
        <input type="button" onclick="add()"> Thêm </input>
     </div>
-     <div class="row"> </div>
+     <div class="row"> 
+        <input class="form-control" type="text" placeholder="Nhập môn">
+					<br>
+
+					<input class="form-control" type="text" placeholder="Nhập số tín chỉ">
+					<br>
+					 
+					<select>
+					<option value="500" >Cơ sở ngành </option>
+					<option value="640" >Chuyên ngành </option>
+					</select>
+                    <br>
+                    <input type="button" value="Xóa" onclick="add()">
+     </div>
     <script>
         function add() {
             const myRow=document.createElement("div");
